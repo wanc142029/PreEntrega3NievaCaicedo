@@ -1,0 +1,30 @@
+nav{
+
+    h1{
+
+        text-align: center;
+        color: bisque;
+        font-size: 30px;
+    }
+
+    li{
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: #61f984;
+    
+    }
+     a{
+        text-decoration: none;
+        color: #61f984;
+        font-size: 20px;
+    }
+    
+    a:hover{
+        background-color: rgb(0, 72, 255);
+    }
+    
+
+    
+}

@@ -45,14 +45,35 @@
 .texto{
 
     transition: width;
-    transition-duration: 500ms;
+    transition-duration: 900ms;
     transition-timing-function: cubic-bezier();
 
 }
 
 .texto:hover{
 
-    color: $color-subtitulos
+    color: $color-subtitulos;
+    font-size: 20px;
+    
 
 }
+
+.principal{
+
+    width: 60px;
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+
+}
+
+.principal:hover{
+
+    width: 100px;
+    
+
+}
+
+
+
 
